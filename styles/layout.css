@@ -1,0 +1,124 @@
+/*
+filename: layout.css
+Student Name: Youssof Hussein
+Student ID: 106214603
+LAB05
+/*
+
+/* Undo the lab04 hover effect */
+aside:hover {
+    display: block;
+}
+
+/* Make menu paragraphs sit on a single line */
+.menu {
+    display: inline-block;
+}
+
+/* Remove dot points from navigation lists */
+nav ul {
+    list-style: none;
+}
+
+/* Style the aside box */
+aside {
+    border: 1px solid darkgrey;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-image: url("images/fade.jpg")
+}
+
+/* Style the footer top border */
+header {
+    border: 1px solid darkgrey;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+/* Style the footer top border */
+footer {
+    border-top: 4px double #333333;
+}
+
+/* Make aside take up 30% width and float to the right with a shadow */
+aside {
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/* Float lists section to the left */
+#lists {
+    float: left;
+}
+
+/* Center the table inside its column */
+table {
+    margin: auto;
+}
+
+/* Float tables section to the right */
+#tables {
+    float: right;
+}
+
+/* Clear floats for hyperlinks section */
+#hyperlinks {
+    clear: both;
+    float: left;
+}
+
+/* Float images section to the right */
+#images {
+    float: right;
+}
+
+/* Add border to figure inside images */
+figure {
+    border: 2px solid #ccc;
+}
+
+/* Even out section widths in our two-column layout */
+#lists, #tables, #hyperlinks, #images {
+    width: 48%;
+    text-align: center;
+}
+
+/* Fix text alignment back to left inside lists */
+ol, ul, dl {
+    text-align: left;
+}
+
+/* Set minimum width on article to preserve legibility */
+article {
+    min-width: 30em;
+}
+
+/* Force footer to the bottom of the page */
+footer {
+    clear: both;
+}
+
+/* Make footer paragraphs inline and set width */
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+/* Position first paragraph to the left */
+footer p:first-child {
+    text-align: center;
+}
+
+/* Center the middle paragraph */
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+/* Position last paragraph to the right */
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
